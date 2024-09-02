@@ -23,8 +23,9 @@ header {
     float: left;
 }
 
-.service-section, .contact-section {
-    margin-bottom: 2rem;
+.service-section, .contact-section, .alliance-section{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .address {
@@ -50,7 +51,41 @@ menu{
     margin-top: 1%;
 }
 
+.infobubble li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.infobubble li img:hover{
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+}
+
+.infobubble li img{
+    padding: 5px;
+    width: 9%;
+}
+
+.infobubble{
+    margin-top: 20px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
 .banner {
+    margin-top: 0%;
+    z-index: -1;
+    position: absolute;
+    background-color: #4CAF50;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.bannerIndex {
     margin-top: 0%;
     z-index: -1;
     position: absolute;
@@ -113,6 +148,24 @@ header .logoBanner{
 
 .subtext{
     color: #000000;
+}
+
+.quoteButton{
+    background-color: #4CAF50;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    padding: 5px;
+    margin-top: 20px;
+
+    position: relative;
+    top: 25%;
+    left: 38%;
+}
+
+.quoteButton a{
+    color: #ffed00;
+    text-decoration: none;
 }
 
 /*formulario*/
