@@ -24,8 +24,7 @@ header {
 }
 
 .service-section, .contact-section, .alliance-section{
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin-bottom: 2rem;
 }
 
 .address {
