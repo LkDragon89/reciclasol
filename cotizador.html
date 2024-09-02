@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReciclaSol</title>
+    <link rel="stylesheet" href="css/reciclasolstyle.css">
+</head>
+<body>
+    
+    <header>
+        <div class="banner">
+            <img src="images/banner.png" />
+        </div>
+        <img class="logoBanner" src="images/logo-1.png"/>
+        <menu>
+            <li><a href="index.html" >INICIO</a></li>
+            <li><a href="">SISTEMAS FOTOVOLTALICOS</a></li>
+            <li><a href="cotizador.html" class="selectNav">COTIZADOR</a></li>
+            <li><a href="">CONTACTO</a></li>
+            <li><a href="blog.html" >BLOG</a></li>
+        </menu>
+    </header>
+
+    <div class="container">
+        <h1 class="text">¿Cuantos páneles necesito?*</h2>
+        <h4 class="text subtext">*El siguiente es un cálculo aproximado, para mayor presición contacta a un asesor solar</h3>
+        <p class="text"> Paso 1: <span class="subtext">Calcula la diferencia ente el consumo actual y el consumo anterior en tu recibo de luz</span></p>
+        <img class="recibo" src="images/recibo.png"/>
+        <p class="text">Paso 2: <span class="subtext">Encuentra en la siguiente tabla en que casilla se encuentra tu resultado y seleccionala</span></p>
+        <div class="tabla"></div>
+        <p class="text">Paso 3: <span class="subtext">Solicita tu cotización aquí</span></p>
+        <div class="formulario">
+            <form id="advancedForm">
+                <!-- Nombre -->
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre*">
+
+                <!-- Telefono -->
+                <input type="text" id="telefono" name="telefono" required placeholder="Telefono*">
+                
+                <!-- Email -->
+                <input type="email" id="email" name="email" required placeholder="Correo electronico*">
+
+                <!-- Nombre -->
+                <input type="text" id="servicio" name="servicio" required placeholder="Número de servicio CFE*">
+    
+                <!-- Botón de Enviar -->
+                <button type="submit" class="submit-btn">Descargar cotización previa</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <img class="logo" src="images/logo-1.png"/>
+        <div class="address">Calle 59 #647 entre 78 y 80 fraccionamiento Las Américas</div>
+    </footer>
+</body>
+</html>
