@@ -25,6 +25,8 @@ header {
 
 .service-section, .contact-section, .alliance-section{
     margin-bottom: 2rem;
+    float: left;
+    width: 100%;
 }
 
 .address {
@@ -54,32 +56,59 @@ menu{
     display: inline;
     margin-left: 15px;
     margin-right: 15px;
+    float: left;
 }
 
-.infobubble li img:hover{
+.infobubble li div:hover{
     border-radius: 15px;
     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
 }
 
+.infobubble-text{
+    visibility: hidden;
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.infobubble-img{
+    float: left;
+    padding-top: 10px;
+}
+
+.infobubble-img p{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.infobubble li div:hover .infobubble-text{
+    visibility: visible;
+}
+
 .infobubble li img{
     padding: 5px;
-    width: 9%;
+    width: 242px;
 }
 
 .infobubble{
     margin-top: 20px;
-    position: relative;
-    top: 25%;
-    left: 25%;
+    float: left;
+    margin-left: 10%;
 }
 
 .banner {
     margin-top: 0%;
     z-index: -1;
     position: absolute;
-    background-color: #4CAF50;
+    background-color: #6ab75a;
     margin-bottom: auto;
     width: 100%;
 }
@@ -94,7 +123,6 @@ menu{
 }
 
 .banner img{
-    width: 120rem;
     float: left;
     height: 200px;
 }
