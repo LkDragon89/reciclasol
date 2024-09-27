@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReciclaSol</title>
-    <link rel="stylesheet" href="css/reciclasolstyle.css">
+    <link rel="stylesheet" href="css/reciclasolstyle.css" media="screen">
+    <link rel="stylesheet" href="css/flexslider.css" media="screen">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script>
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });
+    </script>
+    
 </head>
 <body>
 
@@ -102,12 +114,61 @@
             <div class="quoteButton">
                 <a href="cotizador.html" >Cotiza aqui</a>
             </div>
+
+
+
             <h2>Tenemos alianzas con las <br/> mejores marcas</h2>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/img_3257.jpeg">
+                    </li>
+                    <li>
+                        <img src="images/img_3264.jpeg">
+                    </li>
+                    <li>
+                        <img src="images/img_3380.jpeg">
+                    </li>
+                    <li>
+                        <img src="images/risen.jpeg">
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="service-section">
             <h2>Nuestros Servicios</h2>
-
+            <ul class="infobubble">
+                <li>
+                    <div class="infobubble-img">
+                        <img src="images/proteccion_economica.png" class="center"/>
+                        <p class="infobubble-text">
+                            Un sistema de energía solar, <br/>
+                            no solo te puede evitar <br/>
+                            pagar altos costos por recibo de luz, <br/>
+                            también puede representar <br/>
+                            una estrategia financiera, <br/>
+                            ya que tiene consigue <br/>
+                            beneficios fiscales<br/>
+                            y descuentos en impuestos, <br/>
+                            consulta con uno de nuestros <br/>
+                            asesores solares, <br/>
+                            cuáles son los que <br/>
+                            aplican en tu entidad.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="infobubble-img">
+                        <img src="images/paga_menos.png" class="center" />
+                        <p class="infobubble-text">
+                            Tu también puedes pertenecer<br/>
+                            a ese porcentaje<br/> 
+                            de la población que únicamente<br/>
+                            paga el DAP* en sus recibos de luz.<br/>
+                            *DAP Derecho al Alumbrado Público</p>
+                    </div>
+                </li>
+            </ul>
             <div class="quoteButton">
                 <a href="cotizador.html" >Cotiza tu servicio aqui</a>
             </div>
