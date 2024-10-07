@@ -61,7 +61,7 @@ menu{
 }
 
 
-.infobubble li div:hover{
+.infobubble li .infobubble-img:hover{
     border-radius: 15px;
     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
@@ -78,17 +78,21 @@ menu{
     margin-right: auto;
   }
 
-.infobubble-img{
+.infobubble-img, .info-img{
     float: left;
     padding-top: 10px;
 }
 
-.infobubble-img p{
+.infobubble-img, .info-img p{
     padding-left: 23px;
     padding-right: 23px;
     padding-top: 23px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.info-img img{
+    border-radius: 150px;
 }
 
 .infobubble li div:hover .infobubble-text,
@@ -117,6 +121,7 @@ menu{
 
 .infobubble-list li{
     list-style-type: disc;
+    text-align: left;
 }
 
 .banner {
@@ -199,10 +204,15 @@ header .logoBanner{
     width: 25%;
     padding: 10px;
     margin-top: 20px;
-
     position: relative;
     top: 25%;
     left: 38%;
+}
+
+.getinfo{
+    position:initial;
+    width: 95%;
+    color: #fff;
 }
 
 .quoteButton a{
