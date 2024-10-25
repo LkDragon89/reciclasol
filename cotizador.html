@@ -5,6 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReciclaSol</title>
     <link rel="stylesheet" href="css/reciclasolstyle.css">
+    <style>
+        .border{
+            border-radius: 10px;
+        }
+
+        table {
+            position: relative;
+            left: 30%;
+            width: 40%;
+            top: 15px;
+            border-collapse: separate;
+            font-family: Arial, sans-serif;
+            border-spacing: 0 15px;
+        }
+        td,th{
+            border-style: none;
+        }
+
+        th {
+            background-color: #FFD700; /* Amarillo para el encabezado */
+            color: #fff;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilo para las celdas con fondo verde */
+        .green-bg {
+            background-color: #38B349;
+            color: white;
+        }
+
+        /* Bordes redondeados */
+        th:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .border-radius-left{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border: 1px solid;
+            border-right-style: none;
+            
+        }
+
+        .border-radius-right{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border: 1px solid;
+            border-left-style: none;
+            margin-right: 10px;
+        }
+
+    </style>
 </head>
 <body>
     
@@ -28,7 +91,69 @@
         <p class="text"> Paso 1: <span class="subtext">Calcula la diferencia ente el consumo actual y el consumo anterior en tu recibo de luz</span></p>
         <img class="recibo" src="images/recibo.png"/>
         <p class="text">Paso 2: <span class="subtext">Encuentra en la siguiente tabla en que casilla se encuentra tu resultado y seleccionala</span></p>
-        <div class="tabla"></div>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>POTENCIA DE LOS PANELES</th>
+                        <th>NÚMERO DE PANELES</th>
+                        <th>PRODUCCIÓN ESTIMADA AL BIMESTRE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">4</td>
+                        <td class="green-bg border">650KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">6</td>
+                        <td class="green-bg border">950KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">8</td>
+                        <td class="green-bg border">1300KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">10</td>
+                        <td class="green-bg border">1600KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">12</td>
+                        <td class="green-bg border">1900KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">14</td>
+                        <td class="green-bg border">2200KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">16</td>
+                        <td class="green-bg border">2500KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">18</td>
+                        <td class="green-bg border">2800KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">20</td>
+                        <td class="green-bg border">3100KWH</td>
+                    </tr>
+                    <tr>
+                        <td class="border-radius-left">600W</td>
+                        <td class="border-radius-right">22</td>
+                        <td class="green-bg border">3400KWH</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <p class="text">Paso 3: <span class="subtext">Solicita tu cotización aquí</span></p>
         <div class="formulario">
             <form id="advancedForm">
