@@ -5,36 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReciclaSol</title>
     <link rel="stylesheet" href="css/reciclasolstyle.css" media="screen">
-    <link rel="stylesheet" href="css/flexslider.css" media="screen">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script>
-        $(window).load(function() {
-            $('.flexslider').flexslider({
-                animation: "slide"
-            });
-        });
-    </script>
     
 </head>
 <body>
 
-    <header style="height: 67rem;">
-        <div class="banner">
-            <img src="images/banner_index.png" style="width: 100%; height: 100%;"/>
-        </div>
+    <header>
         <img class="logoBanner" src="images/logo-1.png"/>
         <menu>
             <li><a href="index.html" class="selectNav">INICIO</a></li>
             <li><a href="sistemas_fotovoltalicos.html">SISTEMAS FOTOVOLTALICOS</a></li>
             <li><a href="cotizador.html">COTIZADOR</a></li>
             <li><a href="contacto.html">CONTACTO</a></li>
-            <li><a href="blog.html" >BLOG</a></li>
         </menu>
     </header>
 
     <div class="container">
+        <section class="hero-section">
+            <svg viewBox="0 0 1000 500" preserveAspectRatio="none" class="wave-svg">
+                <defs>
+                    <linearGradient id="greenGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#22c55e; stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#065f46; stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <path d="M0,500 C400,500 700,400 1000,0 L1000,500 L0,500 Z" fill="url(#greenGradient)" />
+            </svg>
+            <div class="hero-text">
+                <h1>&Uacute;nete a nuesta</h1>
+                <p>Revoluci&oacute;n Solar</p>
+            </div>
+        </section>
         <section class="intro-section">
             <h2>¿Quieres saber cómo <br/> mejoramos tu vida?</h2>
             <ul class="infobubble">
@@ -108,60 +110,6 @@
                 </li>
             </ul>
             
-        </section>
-
-        <section class="alliance-section">
-            <div class="quoteButton">
-                <a href="cotizador.html" >Cotiza aqui</a>
-            </div>
-            <h2>Tenemos alianzas con las <br/> mejores marcas</h2>
-            <div class="flexslider">
-                <ul class="slides">
-                    <li>
-                        <img src="images/img_3257.jpeg">
-                    </li>
-                    <li>
-                        <img src="images/img_3264.jpeg">
-                    </li>
-                    <li>
-                        <img src="images/img_3380.jpeg">
-                    </li>
-                    <li>
-                        <img src="images/risen.jpeg">
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="service-section">
-            <h2>Nuestros Servicios</h2>
-            <ul class="infobubble">
-                <li>
-                    <div class="infobubble-img">
-                        <img src="images/mant_preventivo.png" class="center"/>
-                        <ul class="infobubble-list">
-                            <li>Limpieza de módulos solares e inversor</li>
-                            <li>Reemplazo (en caso de ser necesario) de<br/> interruptores termo magnéticos</li>
-                            <li>Revisión de conectores MC4</li>
-                            <li>Análisis de voltajes y ajustes de <br/>conectores directos.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="infobubble-img">
-                        <img src="images/gestiones.png" class="center" />
-                        <ul class="infobubble-list">
-                            <li>Nuevas contrataciones</li>
-                            <li>Trámites fotovoltaicos</li>
-                            <li>Actualización de titular</li>
-                            <li>Pago de recibo de luz (solo aplica en pago con tarjeta)</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <div class="quoteButton" style="float: left;">
-                <a href="cotizador.html" >Cotiza aqui</a>
-            </div>
         </section>
     </div>
 
