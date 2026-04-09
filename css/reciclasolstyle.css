@@ -1,8 +1,18 @@
 /* Globales */
 * {
-    margin: 0px;
+    margin: auto;
     margin-top: 0px;
     padding: 0px;
+    max-width: 1650px;
+}
+
+.text_principal {
+  font-family: "Acumin Concept", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.text_color_white {
+  color: #fff;
 }
 
 body {
@@ -111,6 +121,9 @@ menu li .selectNav {
     align-items: center;
     justify-content: flex-end;
     padding-right: 5%;
+    background-image: url('/images/cover.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-text {
@@ -147,7 +160,7 @@ menu li .selectNav {
 
 .infobubble li img {
     padding: 5px;
-    width: 242px;
+    width: 197px;
 }
 
 .infobubble-img,
@@ -205,6 +218,15 @@ menu li .selectNav {
 .our_footprint table .about_text{
     color:#000000;
     text-align: center;
+    margin-top: 5px;
+}
+
+.our_footprint table .about_text p{
+    margin-top: 10px;
+}
+
+.our_footprint table,th,td{
+    border : none;
 }
 
 .recibo {
@@ -385,15 +407,14 @@ table, th, td {
     background-color: #DAEDD7;
     border-radius: 40px;
     width: 90%;
-    max-width: 1000px;
     padding: 40px;
     position: relative;
-    left: 20%;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     border: none;
     float:left;
+    margin-top: 1%;
+    margin-left: 3%;
 }
 
 /* Título con estilo Serif para imitar la imagen */
@@ -401,10 +422,10 @@ table, th, td {
     color: var(--verde-texto);
     font-size: 2.5rem;
     margin: 0 0 20px 0;
-    font-family: 'Georgia', serif;
     font-weight: bold;
     line-height: 1.2;
     max-width: 600px;
+    color: #76C761;
 }
 
 .revolucion-solar {
@@ -425,32 +446,97 @@ table, th, td {
     width: 65%;
     border-radius: 60px 60px 0 0; /* Solo arriba */
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .image-box img {
     width: 100%;
     display: block;
     object-fit: cover;
+    top: 42%;
+    left: 3%;
 }
 
 /* Botón "Me interesa" */
 .btn-interesa {
-    background-color: var(--verde-texto);
-    color: var(--blanco);
+    background-color: #558c4a;
+    color: #fff;
     text-decoration: none;
-    padding: 15px 40px;
     border-radius: 12px;
     font-weight: 500;
     font-size: 1.2rem;
-    transition: transform 0.2s, background-color 0.2s;
     margin-bottom: 40px;
     margin-right: 20px;
+    float: left;
+    padding: 15px;
+    width: 30%;
 }
 
-.btn-interesa:hover {
-    background-color: #558c4a;
-    transform: scale(1.05);
+.last_news_container{
+    float: left;
+    height: 700px;
+    background-color: #DAEDD7;
+    display: block;
+    width:96%;
+}
+
+.last_news{
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+    margin-left:2%;
+}
+
+.border_radius{
+    border-radius: 60px; 
+}
+
+/* Estilos CSS para el diseño */
+
+.our_numbers {
+    text-align: center; /* Centra el título y el contenido general */
+    padding: 20px; /* Espaciado opcional */
+    margin-top: 1%; /* Espacio superior */
+    float: left;
+    width: 100%;
+}
+
+.our_numbers h2 {
+    color: #76C761; /* Color verde para el título */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+.numbers_container {
+    display: flex; /* Activa Flexbox para alinear elementos lado a lado */
+    justify-content: center; /* Centra los dos bloques horizontalmente */
+    gap: 50px; /* Espacio entre los dos bloques de contenido */
+}
+
+.content_numbers {
+    flex: 1; /* Permite que cada bloque ocupe el mismo espacio disponible */
+    max-width: 300px; /* Limita el ancho máximo de cada bloque */
+}
+
+.content_numbers img.center {
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto 15px; /* Centra la imagen y añade espacio abajo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+}
+
+/* Estilo para los títulos de los números (Paneles Solares, Ahorro generado) */
+.number_title {
+    margin: 0;
+    font-weight: normal; /* Asegura que no estén en negrita por defecto */
+    color: #333; /* Color de texto normal, ajusta según prefieras */
+}
+
+/* Estilo para los números grandes y verdes */
+.big_number {
+    color: #76C761; /* Color verde para los números */
+    font-size: 3em; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    margin: 10px 0 0; /* Espacio arriba, ninguno a los lados/abajo */
 }
 
 /* Adaptabilidad (Mobile) */
