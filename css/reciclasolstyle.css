@@ -404,17 +404,18 @@ table, th, td {
 
 /* Contenedor Principal */
 .banner-container {
-    background-color: #DAEDD7;
-    border-radius: 40px;
-    width: 90%;
-    padding: 40px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border: none;
-    float:left;
-    margin-top: 1%;
-    margin-left: 3%;
+  background-color: #DAEDD7;
+  border-radius: 40px;
+  width: 90%;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  float: left;
+  margin-top: 1%;
+  margin-left: 3%;
+  height: 350px;
 }
 
 /* Título con estilo Serif para imitar la imagen */
@@ -550,4 +551,99 @@ table, th, td {
     }
     .image-box { width: 100%; border-radius: 30px; }
     .btn-interesa { margin-right: 0; }
+}
+
+/* Media query para móviles pequeños (480px y menos) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    header .logoBanner {
+        width: 150px;
+        margin-left: 1%;
+    }
+
+    menu li a {
+        font-size: 16px;
+    }
+
+    .solar-revolution {
+        height: 300px;
+        padding-right: 1%;
+    }
+
+    .intro-section h2 {
+        font-size: 30px;
+    }
+
+    .infobubble li img {
+        width: 120px;
+    }
+
+    .our_footprint table {
+        font-size: 12px;
+    }
+
+    .recibo {
+        width: 90%;
+    }
+
+    .quoteButton {
+        width: 60%;
+        left: 20%;
+    }
+
+    .formulario {
+        left: 2%;
+        width: 96%;
+    }
+
+    .submit-btn {
+        width: 60%;
+        left: 20%;
+    }
+
+    footer .logo {
+        width: 150px;
+    }
+
+    table {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        font-size: 12px;
+    }
+
+    .banner-container {
+        width: 98%;
+        padding: 15px;
+        margin-left: 1%;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .revolucion-solar {
+        font-size: 1.8rem;
+    }
+
+    .btn-interesa {
+        width: 90%;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .last_news_container {
+        padding: 10px;
+    }
+
+    .our_numbers h2 {
+        font-size: 1.2em;
+    }
+
+    .big_number {
+        font-size: 1.5em;
+    }
 }
