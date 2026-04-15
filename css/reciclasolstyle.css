@@ -4,6 +4,7 @@
     margin-top: 0px;
     padding: 0px;
     max-width: 1650px;
+    box-sizing: border-box;
 }
 
 .text_principal {
@@ -416,6 +417,7 @@ table, th, td {
   margin-top: 1%;
   margin-left: 3%;
   height: 400px;
+  margin-bottom: 5%;
 }
 
 /* Título con estilo Serif para imitar la imagen */
@@ -467,9 +469,9 @@ table, th, td {
     margin-right: 20px;
     float: left;
     padding: 15px;
-    width: 13%;
+    width: 16%;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .last_news_container{
