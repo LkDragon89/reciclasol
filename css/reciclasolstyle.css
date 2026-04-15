@@ -415,7 +415,7 @@ table, th, td {
   float: left;
   margin-top: 1%;
   margin-left: 3%;
-  height: 350px;
+  height: 400px;
 }
 
 /* Título con estilo Serif para imitar la imagen */
@@ -436,17 +436,15 @@ table, th, td {
 
 /* Contenido inferior (Imagen y Botón) */
 .content-wrapper {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 20px;
+    float: left;
+    width: 100%;
 }
 
 /* Imagen con bordes redondeados */
 .image-box {
     width: 65%;
-    border-radius: 60px 60px 0 0; /* Solo arriba */
-    overflow: hidden;
+    border-radius: 60px 60px 0 0; /* Bordes redondeados solo en la parte superior */
+    float: left;
 }
 
 .image-box img {
@@ -464,12 +462,14 @@ table, th, td {
     text-decoration: none;
     border-radius: 12px;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     margin-bottom: 40px;
     margin-right: 20px;
     float: left;
     padding: 15px;
-    width: 30%;
+    width: 13%;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .last_news_container{
@@ -489,6 +489,12 @@ table, th, td {
 
 .border_radius{
     border-radius: 60px; 
+}
+
+.container-relative{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 /* Estilos CSS para el diseño */
