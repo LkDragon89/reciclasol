@@ -263,7 +263,6 @@ menu li .selectNav {
 /* Formularios */
 .formulario {
     position: relative;
-    left: 30%;
     width: 40%;
     top: 15px;
     margin-bottom: 15px;
@@ -553,6 +552,22 @@ table, th, td {
   margin-left: 15%;
   margin-right: 15%;
   padding: 0;
+}
+
+.tabla_cotizador table{
+    position: relative;
+    left: 0%;
+    width: 40%;
+    top: 15px;
+    border-collapse: separate;
+    font-family: Arial, sans-serif;
+    border-spacing: 0 15px;
+    margin: auto;
+    border: none;
+}
+
+.tabla_cotizador table th{
+    border: none;
 }
 
 /* Adaptabilidad (Mobile) */
