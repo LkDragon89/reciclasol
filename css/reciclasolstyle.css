@@ -256,7 +256,7 @@ menu li .selectNav {
 
 .getinfo {
     position: initial;
-    width: 95%;
+    width: 45%;
     color: #fff;
 }
 
@@ -546,6 +546,13 @@ table, th, td {
     font-size: 3em; /* Tamaño de fuente grande */
     font-weight: bold; /* Texto en negrita */
     margin: 10px 0 0; /* Espacio arriba, ninguno a los lados/abajo */
+}
+
+.content_center{
+  width: 75%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0;
 }
 
 /* Adaptabilidad (Mobile) */
