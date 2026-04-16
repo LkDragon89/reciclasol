@@ -263,7 +263,7 @@ menu li .selectNav {
 /* Formularios */
 .formulario {
     position: relative;
-    width: 40%;
+    width: 50%;
     top: 15px;
     margin-bottom: 15px;
 }
@@ -325,7 +325,7 @@ input[type="checkbox"] {
     padding: 10px;
     background-color: #28a745;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -557,7 +557,7 @@ table, th, td {
 .tabla_cotizador table{
     position: relative;
     left: 0%;
-    width: 40%;
+    width: 50%;
     top: 15px;
     border-collapse: separate;
     font-family: Arial, sans-serif;
