@@ -42,6 +42,22 @@ body {
     margin-top: 20px;
 }
 
+.text_font {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.text_email {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #FDA800;
+}
+
+.text_font_small{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
 .subtext {
     color: #000000;
 }
@@ -458,7 +474,7 @@ table, th, td {
 
 /* Botón "Me interesa" */
 .btn-interesa {
-    background-color: #558c4a;
+    background-color: #69B75C;
     color: #fff;
     text-decoration: none;
     border-radius: 12px;
@@ -471,6 +487,13 @@ table, th, td {
     width: 16%;
     margin-left: 5%;
     margin-top: 5%;
+}
+
+.btn-whatsapp{
+    width: 25%;
+    text-align: center;
+    float:left;
+    margin-left: 37.5%;
 }
 
 .last_news_container{
